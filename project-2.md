@@ -1,12 +1,12 @@
 ## LEMP STACK IMPLEMENTATION (PROJECT 2) ##
 
-We are setting up a LEMP STACK using EC2 as our virtual server.
-To do this we need to do the following:
+We are setting up a LEMP STACK using EC2,
+to do this we need to do the following:
 
 * create an account on [AWS](https://aws.amazon.com/). 
-* we create an instance (virtual machine) by selecting __“ubuntu server 20.04 LTS”__ from Amazon Machine Image(AMI)(free tier). 
+* we create an instance (virtual machine) by selecting __“ubuntu server 20.04 LTS”__ from Amazon Machine Image(AMI)(free tier).
 * we select “t2.micro(free tier eligible)” 
-* then go to the security group and select “existing security group” review and launch.
+* then go to the security group and select “a security group” review and launch.
 
  How to create an aws free tier account. click [here](https://www.youtube.com/watch?v=xxKuB9kJoYM&list=PLtPuNR8I4TvkwU7Zu0l0G_uwtSUXLckvh&index=7)
 
@@ -18,19 +18,19 @@ We open our terminal and go to the location of the previously downloaded PEM fil
 
 ![image](./images/cd-downloads-to-locate-the-pem2.PNG)
 
-To know how to download PEM File from __AWS__. Click [HERE](https://intellipaat.com/community/52119/how-to-download-a-pem-file-from-aws).
+To know how to download PEM File from __AWS__. Click [here](https://intellipaat.com/community/52119/how-to-download-a-pem-file-from-aws).
 
 We connect to the instance from our ubuntu terminal using the command:
 
 ```$ ssh -i dybran-ec2.pem ubuntu@54.175.190.127```
 
-This automatically connects to the instance
+This automatically connects to the instance.
 
 ![image](./images/connect-to-aws.PNG)
 
 __SETTING UP NGINX WEB SERVER__
 
-To download the nginx web server, we first update the serve's package
+To download the nginx web server, we first update the server's package.
 
 ```$ sudo apt update```
 
