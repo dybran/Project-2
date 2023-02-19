@@ -94,7 +94,7 @@ We  __"exit"__ the mysql and start the script by running the command:
 
 This will ask for password, create password you would want and go ahead and type __"yes"__ to all subsequent prompts.
 
-![image](./images/mysql-secure-install.PNG)
+![image](./images/mysql_secure_install.PNG)
 
 When we are done, we test if we can log into the  mysql by runnimg the command:
 
