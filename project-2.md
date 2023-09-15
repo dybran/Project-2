@@ -18,7 +18,7 @@ We open our terminal and go to the location of the previously downloaded PEM fil
 
 ![image](./images/cd-downloads-to-locate-the-pem2.PNG)
 
-To know how to download PEM File from __AWS__. Click [here](https://intellipaat.com/community/52119/how-to-download-a-pem-file-from-aws).
+To download PEM File from __AWS__. Click [here](https://intellipaat.com/community/52119/how-to-download-a-pem-file-from-aws).
 
 We connect to the instance from our ubuntu terminal using the command:
 
