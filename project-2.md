@@ -165,7 +165,8 @@ create and open a new configuration file in nginx"s __sites-available__
 
 paste in the following:
 
-```server {
+```
+server {
     listen 80;
     server_name projectLEMP www.projectLEMP;
     root /var/www/projectLEMP;
